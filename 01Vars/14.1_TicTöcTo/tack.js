@@ -4,8 +4,15 @@ let feld = [
     [0, 0, 0]
 ];
 
-feld[0][1] = 1;
-feld[1][1] = 2;
+feld[0][0] = 1;
+feld[1][0] = 2;
+feld[2][0] = 1;
+feld[0][1] = 2;
+feld[1][1] = 1;
+feld[2][1] = 1;
+feld[0][2] = 2;
+feld[1][2] = 2;
+feld[2][2] = 1;
 printFeld();
 
 function printFeld() {
